@@ -185,9 +185,13 @@ input:focus {
   height: 45px;
   border-radius: 100%;
 }
+
+
 /* navigation bar is completed here */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* main */
+
+
 main {
   width: 100%;
   padding: 0% 3%;
@@ -197,8 +201,10 @@ main {
   justify-content: space-around;
   transition: all ease-in-out 1s;
 }
+
 /* there are two aside sections both of them will have this class 
 (I have taken care of the re-usability of the classes and removed redundancy) */
+
 .aside {
   display: inline-block;
   overflow: hidden;
@@ -210,15 +216,19 @@ main {
   overflow: scroll;
   overflow-x: hidden;
 }
+
 /* overflow should be scrollable but the scroll bar should be hidden*/
+
 .section-1::-webkit-scrollbar {
   display: none;
 }
+
 /* section 2 of the main part */
 .section-2 {
   width: 28%;
   height: 86vh;
 }
+
 /* aside section 1 */
 .outer-carousel {
   position: relative;
@@ -263,7 +273,6 @@ main {
 }
 
 /* animations for carousel */
-
 .carousel img:hover {
   z-index: 4;
   box-shadow: 0px 0px 12px 0.1px black;
@@ -294,6 +303,7 @@ main {
   width: 47%;
   margin: 5px 0px;
 }
+
 /* card is the general class for the components of the latest release part */
 .card {
   display: flex;
@@ -338,6 +348,7 @@ main {
 .song-description {
   margin: auto 10%;
 }
+
 /* options is the class for the 3 dots which needs to be clicked to trigger the latest release drop down menu */
 .options {
   position: relative;
